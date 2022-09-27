@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func variable() {
+func variableOne() {
 	var x int // Type after the identifier
 	x = 16    // Variable assigned after declaration
 	y := 17   // Variable declared and assigned

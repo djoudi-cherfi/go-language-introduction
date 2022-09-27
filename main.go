@@ -7,5 +7,6 @@ Main function
 */
 func main() {
 	// fmt.Printf("Hello, world!\n")
-	variable()
+	// variableOne()
+	variableTwo()
 }
