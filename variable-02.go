@@ -6,8 +6,8 @@ func variableTwo() {
 	var (
 		i   int
 		u   uint // positive number
-		u8  uint8
 		i8  int8
+		u8  uint8
 		i16 int16
 		u16 uint16
 		f   float32
