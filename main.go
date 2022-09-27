@@ -8,5 +8,6 @@ Main function
 func main() {
 	// fmt.Printf("Hello, world!\n")
 	// variableOne()
-	variableTwo()
+	// variableTwo()
+	operatorOne()
 }
