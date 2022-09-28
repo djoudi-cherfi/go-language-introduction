@@ -13,5 +13,6 @@ func main() {
 	// conditionOne()
 	// conditionTwo()
 	// loopOne()
-	arrayOne()
+	// arrayOne()
+	functionOne()
 }
