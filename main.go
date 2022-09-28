@@ -10,5 +10,6 @@ func main() {
 	// variableOne()
 	// variableTwo()
 	// operatorOne()
-	conditionOne()
+	// conditionOne()
+	conditionTwo()
 }
