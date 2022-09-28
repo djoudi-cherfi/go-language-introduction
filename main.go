@@ -9,5 +9,6 @@ func main() {
 	// fmt.Printf("Hello, world!\n")
 	// variableOne()
 	// variableTwo()
-	operatorOne()
+	// operatorOne()
+	conditionOne()
 }
