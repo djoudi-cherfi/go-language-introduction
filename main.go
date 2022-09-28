@@ -6,11 +6,12 @@ package main
 Main function
 */
 func main() {
-	// fmt.Printf("Hello, world!\n")
+	// helloWorld()
 	// variableOne()
 	// variableTwo()
 	// operatorOne()
 	// conditionOne()
 	// conditionTwo()
-	loopOne()
+	// loopOne()
+	arrayOne()
 }
