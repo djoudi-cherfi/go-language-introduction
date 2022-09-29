@@ -16,5 +16,7 @@ func main() {
 	// arrayOne()
 	// functionOne()
 	// scopeOne()
-	mapOne()
+	// mapOne()
+	// anonymousFunctionOne()
+	anonymousFunctionTwo()
 }
