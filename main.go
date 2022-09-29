@@ -15,5 +15,6 @@ func main() {
 	// loopOne()
 	// arrayOne()
 	// functionOne()
-	scopeOne()
+	// scopeOne()
+	mapOne()
 }
