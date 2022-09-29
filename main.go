@@ -19,5 +19,6 @@ func main() {
 	// mapOne()
 	// anonymousFunctionOne()
 	// anonymousFunctionTwo()
-	printOne()
+	// printOne()
+	passByValue()
 }
