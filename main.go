@@ -14,5 +14,6 @@ func main() {
 	// conditionTwo()
 	// loopOne()
 	// arrayOne()
-	functionOne()
+	// functionOne()
+	scopeOne()
 }
