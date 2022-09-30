@@ -26,5 +26,6 @@ func main() {
 	// bindFunctionType()
 	// interfaceOne()
 	// moduleOne()
-	channelOne()
+	// channelOne()
+	jsonOne()
 }
