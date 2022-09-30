@@ -24,5 +24,6 @@ func main() {
 	// pointerOne()
 	// typeStructOne()
 	// bindFunctionType()
-	interfaceOne()
+	// interfaceOne()
+	moduleOne()
 }

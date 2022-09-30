@@ -4,15 +4,15 @@ import "fmt"
 
 func typeStructOne() {
 	type Example struct {
-		a string
-		b int
-		c bool
+		A string
+		B int
+		C bool
 	}
 
 	myExample := Example{
-		a: "John",
-		b: 42,
-		c: true,
+		A: "John",
+		B: 42,
+		C: true,
 	}
 
 	fooExample := Example{"Jane", 32, true}

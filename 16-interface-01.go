@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
-type cat struct {
-	name  string
-	breed string
+type Cat struct {
+	Name  string
+	Breed string
 }
 
-type spider struct {
-	name     string
-	breed    string
-	venomous bool
+type Spider struct {
+	Name     string
+	Breed    string
+	Venomous bool
 }
 
 type Animal interface {
@@ -18,19 +18,19 @@ type Animal interface {
 	NumberOfLegs() int
 }
 
-func (c *cat) Noise() string {
+func (c *Cat) Noise() string {
 	return "miaou"
 }
 
-func (c *cat) NumberOfLegs() int {
+func (c *Cat) NumberOfLegs() int {
 	return 4
 }
 
-func (s *spider) Noise() string {
+func (s *Spider) Noise() string {
 	return "hiss"
 }
 
-func (s *spider) NumberOfLegs() int {
+func (s *Spider) NumberOfLegs() int {
 	return 8
 }
 
@@ -39,17 +39,17 @@ func printAnimalInfo(a Animal) {
 }
 
 func interfaceOne() {
-	catOne := cat{
-		name:  "Kitty",
-		breed: "Siamois",
+	catOne := Cat{
+		Name:  "Kitty",
+		Breed: "Siamois",
 	}
 
 	printAnimalInfo(&catOne)
 
-	spiderOne := spider{
-		name:     "Spi",
-		breed:    "Veuve noir",
-		venomous: true,
+	spiderOne := Spider{
+		Name:     "Spi",
+		Breed:    "Veuve noir",
+		Venomous: true,
 	}
 
 	printAnimalInfo(&spiderOne)
