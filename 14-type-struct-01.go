@@ -20,6 +20,6 @@ func typeStructOne() {
 	fmt.Println(myExample)
 	fmt.Println(fooExample)
 
-	myContact := newContact("John", 30)
-	fmt.Println(myContact)
+	// myContact := newContact("John", 30)
+	// fmt.Println(myContact)
 }
