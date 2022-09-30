@@ -21,5 +21,6 @@ func main() {
 	// anonymousFunctionTwo()
 	// printOne()
 	// passByValueOne()
-	pointerOne()
+	// pointerOne()
+	typeStructOne()
 }
