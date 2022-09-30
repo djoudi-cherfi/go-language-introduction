@@ -18,7 +18,6 @@ func mapOne() {
 	}
 
 	fmt.Println("Le prix est de :", supermarketPrice["gateau"])
-
 	fmt.Println("----------- supermarketPrice")
 
 	for key, value := range supermarketPrice {
@@ -48,19 +47,21 @@ func mapOne() {
 
 	fmt.Println("----------- daysInYear")
 	fmt.Printf("Nombre de jours dans une année : %d jours !\n", daysInYear)
-
 	fmt.Println("----------- daysInMonth")
+
 	for key, value := range daysInMonth {
 		fmt.Printf("%v possède %d jours !\n", key, value)
 	}
 
 	fmt.Println("----------- order daysInMonth")
 	keys := make([]string, 0)
+
 	for k := range daysInMonth {
 		keys = append(keys, k)
 	}
 
 	sort.Strings(keys)
+
 	for _, k := range keys {
 		fmt.Println(k, daysInMonth[k])
 	}

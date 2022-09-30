@@ -20,5 +20,6 @@ func main() {
 	// anonymousFunctionOne()
 	// anonymousFunctionTwo()
 	// printOne()
-	passByValueOne()
+	// passByValueOne()
+	pointerOne()
 }
