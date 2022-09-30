@@ -23,5 +23,6 @@ func main() {
 	// passByValueOne()
 	// pointerOne()
 	// typeStructOne()
-	bindFunctionType()
+	// bindFunctionType()
+	interfaceOne()
 }
