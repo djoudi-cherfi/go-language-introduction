@@ -25,5 +25,6 @@ func main() {
 	// typeStructOne()
 	// bindFunctionType()
 	// interfaceOne()
-	moduleOne()
+	// moduleOne()
+	channelOne()
 }
