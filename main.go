@@ -28,5 +28,6 @@ func main() {
 	// moduleOne()
 	// channelOne()
 	// jsonOne()
-	unitTestOne()
+	// unitTestOne()
+	genericsOne()
 }
