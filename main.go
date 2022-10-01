@@ -29,5 +29,6 @@ func main() {
 	// channelOne()
 	// jsonOne()
 	// unitTestOne()
-	genericsOne()
+	// genericsOne()
+	appWeb()
 }

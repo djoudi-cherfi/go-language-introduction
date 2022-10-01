@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-type Contact struct {
+type ContactUser struct {
 	Name  string
 	Age   int
 	Phone map[string]string
 }
 
-func newContact(name string, age int, phone map[string]string) Contact {
-	c := Contact{
+func newContact(name string, age int, phone map[string]string) ContactUser {
+	c := ContactUser{
 		Name:  name,
 		Age:   age,
 		Phone: phone,
@@ -18,8 +18,8 @@ func newContact(name string, age int, phone map[string]string) Contact {
 	return c
 }
 
-func (c Contact) displayContact() string {
-	display := fmt.Sprintf("Contact: %v (%v ans)\n", c.Name, c.Age)
+func (c ContactUser) displayContact() string {
+	display := fmt.Sprintf("Contact user: %v (%v ans)\n", c.Name, c.Age)
 
 	display += "----------------\n"
 
