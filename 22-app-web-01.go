@@ -7,22 +7,13 @@ import (
 
 const port = ":8080"
 
-func Home(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Bonjour à tous!")
-}
-
-func About(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "À propos de nous")
-}
-
-func Contact(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Contact-nous")
-}
-
 func appWeb() {
 	http.HandleFunc("/", Home)
 	http.HandleFunc("/about", About)
 	http.HandleFunc("/contact", Contact)
+
+	fs := http.FileServer(http.Dir("assets"))
+	http.Handle("/assets/", http.StripPrefix("/assets", fs))
 
 	fmt.Println("(http://localhost:8080) - Server running on port", port)
 	http.ListenAndServe(port, nil)
